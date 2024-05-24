@@ -62,11 +62,17 @@ class UserRetrieveAPIView(generics.RetrieveAPIView):
 
 class EmployedUsersListAPIView(generics.ListAPIView):
     serializer_class = EmployedUserSerializer
-    queryset = User.objects.filter(tasks__id__isnull=False).distinct()
+    queryset = User.objects.filter(
+            tasks__id__isnull=False
+        ).annotate(
+            task_count=Count('tasks')
+        ).order_by(
+            'task_count'
+        ).distinct()
 
 
 class AvailableUserForTaskRetrieveAPIView(APIView):
-    
+
     def get(self, request, pk):
 
         user_min_task = User.objects.all().annotate(task_count=Count('tasks')).order_by('task_count').first()
