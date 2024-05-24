@@ -1,0 +1,109 @@
+[
+    {
+        "model": "users.position",
+        "pk": 1,
+        "fields": {
+            "name": "Менеджер проекта"
+        }
+    },
+    {
+        "model": "users.position",
+        "pk": 2,
+        "fields": {
+            "name": "Программист"
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$FP2t4kJ0AJW6cvgHqIFFX9$BwwVctCtSyaKk9zFAG/9MLyxzbKRCeFwMHWrkSyklhc=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "test user 1",
+            "last_name": "test user 1",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-22T21:03:10.632Z",
+            "email": "user1@test1.ru",
+            "phone": null,
+            "position": 2,
+            "groups": [],
+            "user_permissions": [],
+            "tasks": [
+                2,
+                1,
+                3,
+                8
+            ]
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$L9E3fkfMB1u9PHKX7qU4ry$fmf+S41Z5b/XPAx+1/zOJh5vbGnd2vogQoXAqxStXuM=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "test user 2",
+            "last_name": "test user 2",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-24T07:21:14.199Z",
+            "email": "user1@test2.ru",
+            "phone": null,
+            "position": 2,
+            "groups": [],
+            "user_permissions": [],
+            "tasks": [
+                6,
+                7
+            ]
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$exYsxv3f12YndQRVKjJfaF$6crOneSwQk0Rbsi64udMAvAFcgcmk+zTMbvO3qfMsaE=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "test user 3",
+            "last_name": "test user 3",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-24T07:21:34.577Z",
+            "email": "user1@test3.ru",
+            "phone": null,
+            "position": 2,
+            "groups": [],
+            "user_permissions": [],
+            "tasks": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$PuoIasoZqIgvpF00XfRxdz$m9VkZ9pSqQ6czf/QvEIMkLYNRNwlGR7yx5m+UnEKanM=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "test user 4",
+            "last_name": "test user 4",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-24T07:21:50.432Z",
+            "email": "user1@test4.ru",
+            "phone": null,
+            "position": 2,
+            "groups": [],
+            "user_permissions": [],
+            "tasks": [
+                3,
+                4
+            ]
+        }
+    }
+]

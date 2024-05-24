@@ -1,0 +1,612 @@
+[
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 4,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 4,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 4,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 4,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 5,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 5,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 5,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 5,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 6,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 6,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 6,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 6,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add должность",
+            "content_type": 7,
+            "codename": "add_position"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change должность",
+            "content_type": 7,
+            "codename": "change_position"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete должность",
+            "content_type": 7,
+            "codename": "delete_position"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view должность",
+            "content_type": 7,
+            "codename": "view_position"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add Статус",
+            "content_type": 8,
+            "codename": "add_status"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change Статус",
+            "content_type": 8,
+            "codename": "change_status"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete Статус",
+            "content_type": 8,
+            "codename": "delete_status"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view Статус",
+            "content_type": 8,
+            "codename": "view_status"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add задача",
+            "content_type": 9,
+            "codename": "add_task"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change задача",
+            "content_type": 9,
+            "codename": "change_task"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete задача",
+            "content_type": 9,
+            "codename": "delete_task"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view задача",
+            "content_type": 9,
+            "codename": "view_task"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "users",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "users",
+            "model": "position"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "task_tracker",
+            "model": "status"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "task_tracker",
+            "model": "task"
+        }
+    },
+    {
+        "model": "users.position",
+        "pk": 1,
+        "fields": {
+            "name": "Менеджер проекта"
+        }
+    },
+    {
+        "model": "users.position",
+        "pk": 2,
+        "fields": {
+            "name": "Программист"
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$FP2t4kJ0AJW6cvgHqIFFX9$BwwVctCtSyaKk9zFAG/9MLyxzbKRCeFwMHWrkSyklhc=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "test user 1",
+            "last_name": "test user 1",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-22T21:03:10.632Z",
+            "email": "user1@test1.ru",
+            "phone": null,
+            "position": 2,
+            "groups": [],
+            "user_permissions": [],
+            "tasks": [
+                2,
+                1,
+                3,
+                8
+            ]
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$L9E3fkfMB1u9PHKX7qU4ry$fmf+S41Z5b/XPAx+1/zOJh5vbGnd2vogQoXAqxStXuM=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "test user 2",
+            "last_name": "test user 2",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-24T07:21:14.199Z",
+            "email": "user1@test2.ru",
+            "phone": null,
+            "position": 2,
+            "groups": [],
+            "user_permissions": [],
+            "tasks": [
+                6,
+                7
+            ]
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$exYsxv3f12YndQRVKjJfaF$6crOneSwQk0Rbsi64udMAvAFcgcmk+zTMbvO3qfMsaE=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "test user 3",
+            "last_name": "test user 3",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-24T07:21:34.577Z",
+            "email": "user1@test3.ru",
+            "phone": null,
+            "position": 2,
+            "groups": [],
+            "user_permissions": [],
+            "tasks": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$PuoIasoZqIgvpF00XfRxdz$m9VkZ9pSqQ6czf/QvEIMkLYNRNwlGR7yx5m+UnEKanM=",
+            "last_login": null,
+            "is_superuser": false,
+            "first_name": "test user 4",
+            "last_name": "test user 4",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-24T07:21:50.432Z",
+            "email": "user1@test4.ru",
+            "phone": null,
+            "position": 2,
+            "groups": [],
+            "user_permissions": [],
+            "tasks": [
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "task_tracker.status",
+        "pk": 1,
+        "fields": {
+            "name": "Новая"
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 1,
+        "fields": {
+            "name": "task test1",
+            "description": "task test1",
+            "status": 1,
+            "parent": null
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 2,
+        "fields": {
+            "name": "task parent test1",
+            "description": "task parent test1",
+            "status": null,
+            "parent": null
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 3,
+        "fields": {
+            "name": "task child test1",
+            "description": "task child test1",
+            "status": null,
+            "parent": 2
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 4,
+        "fields": {
+            "name": "task child test2",
+            "description": "task child test2",
+            "status": null,
+            "parent": 2
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 5,
+        "fields": {
+            "name": "task child test5",
+            "description": "task child test5",
+            "status": null,
+            "parent": 2
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 6,
+        "fields": {
+            "name": "task child test6",
+            "description": "task child test6",
+            "status": null,
+            "parent": 2
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 7,
+        "fields": {
+            "name": "task child test7",
+            "description": "task child test7",
+            "status": null,
+            "parent": 2
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 8,
+        "fields": {
+            "name": "task child test8",
+            "description": "task child test8",
+            "status": null,
+            "parent": 2
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 9,
+        "fields": {
+            "name": "task parent test2",
+            "description": "task parent test2",
+            "status": null,
+            "parent": null
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 10,
+        "fields": {
+            "name": "task child test8",
+            "description": "task child test8",
+            "status": null,
+            "parent": 9
+        }
+    }
+]

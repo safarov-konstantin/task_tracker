@@ -1,0 +1,109 @@
+[
+    {
+        "model": "task_tracker.status",
+        "pk": 1,
+        "fields": {
+            "name": "Новая"
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 1,
+        "fields": {
+            "name": "task test1",
+            "description": "task test1",
+            "status": 1,
+            "parent": null
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 2,
+        "fields": {
+            "name": "task parent test1",
+            "description": "task parent test1",
+            "status": null,
+            "parent": null
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 3,
+        "fields": {
+            "name": "task child test1",
+            "description": "task child test1",
+            "status": null,
+            "parent": 2
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 4,
+        "fields": {
+            "name": "task child test2",
+            "description": "task child test2",
+            "status": null,
+            "parent": 2
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 5,
+        "fields": {
+            "name": "task child test5",
+            "description": "task child test5",
+            "status": null,
+            "parent": 2
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 6,
+        "fields": {
+            "name": "task child test6",
+            "description": "task child test6",
+            "status": null,
+            "parent": 2
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 7,
+        "fields": {
+            "name": "task child test7",
+            "description": "task child test7",
+            "status": null,
+            "parent": 2
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 8,
+        "fields": {
+            "name": "task child test8",
+            "description": "task child test8",
+            "status": null,
+            "parent": 2
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 9,
+        "fields": {
+            "name": "task parent test2",
+            "description": "task parent test2",
+            "status": null,
+            "parent": null
+        }
+    },
+    {
+        "model": "task_tracker.task",
+        "pk": 10,
+        "fields": {
+            "name": "task child test8",
+            "description": "task child test8",
+            "status": null,
+            "parent": 9
+        }
+    }
+]
