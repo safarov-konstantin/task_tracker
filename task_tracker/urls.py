@@ -27,7 +27,6 @@ urlpatterns = [
     path('status/update/<int:pk>/', StatusUpdateAPIView.as_view(), name='status-update'),
     path('status/delete/<int:pk>/', StatusDestroyAPIView.as_view(), name='status-delete'),
     path('status/<int:pk>/', StatusRetrieveAPIView.as_view(), name='status-view'),
-
     # model task
     path('', TaskListAPIView.as_view(), name='tasks'),
     path('create/', TaskCreateAPIView.as_view(), name='create_task'),

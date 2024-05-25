@@ -25,7 +25,6 @@ urlpatterns = [
     path('positions/update/<int:pk>/', PositionUpdateAPIView.as_view(), name='positions-update'),
     path('positions/delete/<int:pk>/', PositionDestroyAPIView.as_view(), name='positions-delete'),
     path('positions/<int:pk>/', PositionRetrieveAPIView.as_view(), name='position-view'),
-
     # model user
     path('', UserListAPIView.as_view(), name='users'),
     path('create/', UserCreateAPIView.as_view(), name='create_user'),

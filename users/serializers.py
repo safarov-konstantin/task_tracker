@@ -2,6 +2,7 @@ from rest_framework import serializers
 from users.models import User, Position
 from task_tracker.serializers import TaskSerialezer
 
+
 class PositionSerializer(serializers.ModelSerializer):
 
     class Meta:
@@ -14,7 +15,7 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = [
-            'id',  
+            'id',
             'email',
             'first_name',
             'last_name',
@@ -45,7 +46,7 @@ class EmployedUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = [
-            'id',  
+            'id',
             'email',
             'first_name',
             'last_name',
@@ -60,7 +61,7 @@ class AvailableUserForTaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = [
-            'id',  
+            'id',
             'email',
             'first_name',
             'last_name',

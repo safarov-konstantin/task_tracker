@@ -4,11 +4,12 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from task_tracker.models import Task
 from users.models import User, Position
-from users.serializers import(
+from users.serializers import (
     UserSerializer,
     PositionSerializer,
     EmployedUserSerializer
 )
+
 
 class PositionCreateAPIView(generics.CreateAPIView):
     serializer_class = PositionSerializer
@@ -62,13 +63,7 @@ class UserRetrieveAPIView(generics.RetrieveAPIView):
 
 class EmployedUsersListAPIView(generics.ListAPIView):
     serializer_class = EmployedUserSerializer
-    queryset = User.objects.filter(
-            tasks__id__isnull=False
-        ).annotate(
-            task_count=Count('tasks')
-        ).order_by(
-            'task_count'
-        ).distinct()
+    queryset = User.objects.filter(tasks__id__isnull=False).annotate(task_count=Count('tasks')).order_by('task_count').distinct()
 
 
 class AvailableUserForTaskRetrieveAPIView(APIView):

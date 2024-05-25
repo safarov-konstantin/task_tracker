@@ -14,7 +14,6 @@ class Command(BaseCommand):
             is_superuser=True,
             is_staff=True,
             phone='',
-            city='',
             is_active=True
         )
 
